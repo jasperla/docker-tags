@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'dockertags'
+rescue
+  dockertags_path File.expand_path('../../lib', __FILE__)
+  $LOAD_PATH.unshift(dockertags_path)
+
+  require 'dockertags'
+end
+
+Commander::Runner.instance.run!
