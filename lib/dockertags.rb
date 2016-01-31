@@ -1,6 +1,7 @@
 # Copyright (c) 2016 Jasper Lievisse Adriaanse <j@jasper.la>
 # See LICENSE for details
 
+require 'dockertags/version'
 require 'dockertags/log'
 require 'dockertags/db'
 require 'dockertags/utils'
