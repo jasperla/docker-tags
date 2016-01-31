@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'dockertags/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'dockertags'
+  s.name        = 'docker-tags'
   s.version     = DockerTags::VERSION
   s.authors     = ['Jasper Lievisse Adriaanse'],
   s.email       = ['j@jasper.la']
