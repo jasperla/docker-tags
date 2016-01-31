@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name        = 'docker-tags'
   s.version     = DockerTags::VERSION
   s.authors     = ['Jasper Lievisse Adriaanse'],
-  s.email       = ['j@jasper.la']
+  s.email       = ['jasper@humppa.nl']
   s.homepage    = "https://github.com/jasperla/docker-tags"
   s.summary     = 'Track tags of Docker images.'
   s.description = 'Track and report tags of followed Docker images.'
